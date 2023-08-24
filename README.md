@@ -23,5 +23,5 @@ A single-button keyboard, based on ESP32-S3, developed using CircuitPython or Mi
 
 ## License
 
-(hardware/mechanical)https://creativecommons.org/licenses/by-nc-nd/4.0
+(hardware/mechanical)[Creative Commons — Attribution-NonCommercial-ShareAlike 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
