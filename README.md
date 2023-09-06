@@ -36,7 +36,7 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 
 ![6](documents/images/6.jpg)
 
-![7](documents/images\7.jpg)
+![7](documents/images/7.jpg)
 
 ![8](documents/images/8.jpg)
 
