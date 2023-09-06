@@ -5,19 +5,32 @@
     <br>
 </p>
 <p align="center">   
-    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/MakerM0/MagiClick">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MakerM0/MagiClick">  
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/MakerM0/MagiClick-esp32s3">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/MakerM0/MagiClick-esp32s3">  
 </p>
 
 
-# MagiClick-esp32s3
+# [MagiClick-esp32s3](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
 A single-button keyboard, based on ESP32-S3, developed using CircuitPython or MicroPython, with a color screen.
 
+![1](documents/images/1.jpg)
+
+- The display part adopts a 0.85-inch color screen, 128x128 resolution, and the display content is delicate
+- The main control board is currently only designed with the esp32s3 version, which supports WiFi, flash and RAM large enough to help add more functional scripts
+- The overall operation is mainly based on the mechanical axis buttons in the middle, and the left and right sides of the fuselage are generally used as auxiliaries
+- The keyboard axis uses a pluggable design, and you can freely choose the silent axis or others
+- Built-in a small speaker, listening to a sound is so easy
+- An on-board 6-axis motion sensor
+- There is an expansion port on the rear side of the fuselage
+- USB Type-C interface
+- One reset button at the bottom
+- On-board colorful LEDs
 
 
- 
 
+## Mechanical
 
+![2](documents/images/2.gif)
 
 
 
