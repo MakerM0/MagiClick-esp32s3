@@ -10,14 +10,10 @@
 </p>
 
 
-# [MagiClick-esp32s3](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
+# [MagiClick S3](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
 A single-button keyboard, based on ESP32-S3, with a color screen.
 
 CircuitPython is used by default. You can also use MicroPython, Arduino.
-
-
-
-![1](documents/images/1.jpg)
 
 - The display part adopts a 0.85-inch color screen, 128x128 resolution, and the display content is delicate
 - The main control board is currently only designed with the esp32s3 version, which supports WiFi, flash and RAM large enough to help add more functional scripts
@@ -30,7 +26,23 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 - One reset button at the bottom
 - On-board colorful LEDs
 
+![1](documents/images/1.jpg)
 
+
+
+![4](documents/images/4.jpg)
+
+![5](documents/images/5.jpg)
+
+![6](documents/images/6.jpg)
+
+![7](documents/images\7.jpg)
+
+![8](documents/images/8.jpg)
+
+![9](documents/images/9.jpg)
+
+![10](documents/images/10.jpg)
 
 ## Mechanical
 
