@@ -36,7 +36,7 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 
 ![2](documents/images/2.gif)
 
-
+![3](documents/images/3.gif)
 
 ## License
 
