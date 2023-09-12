@@ -11,6 +11,8 @@
 
 
 # [MagiClick S3](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
+[afdian.net](https://afdian.net/a/modular)    [bilibili](https://space.bilibili.com/204526879)
+
 A single-button keyboard, based on ESP32-S3, with a color screen.
 
 CircuitPython is used by default. You can also use MicroPython, Arduino.
