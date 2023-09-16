@@ -1,4 +1,8 @@
 '''
+v0.2.3
+    20230913
+    del fail info ...
+    fix 2dian
 v0.2.2
     20230824
     use ntp
@@ -56,7 +60,7 @@ print(' ')
 spHour = ["12", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
 spMinDec = ["0", "10", "20", "30", "40", "50"]
 spMinSpecial = ["11", "12", "13", "14", "15", "16", "17", "18", "19"]
-spMinLow = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+spMinLow = ["1", "ai", "3", "4", "5", "6", "7", "8", "9"]
 
 
 def playwave(filename):
@@ -119,7 +123,7 @@ if  os.getenv("WIFI_SSID")=="":
     print('Exit after 10 seconds')
     time.sleep(1.0)
     for i in range(10):
-        print('... ')
+#         print('... ')
         time.sleep(1.0)   
         
     returnMainPage()
@@ -154,8 +158,11 @@ ntp = adafruit_ntp.NTP(pool, tz_offset=8, server = "ntp1.aliyun.com")
 
 
 
- 
-rtc.RTC().datetime = ntp.datetime
+try: 
+    rtc.RTC().datetime = ntp.datetime
+except Exception as e:
+    print(e)
+    pass
  
 time_now = time.localtime()
 print(time_now)
@@ -242,7 +249,7 @@ week_label[week_id].color = WEEK_COLOR_NOW
 
 display.show(main_group)
 
- 
+# sayTimeCN(2, 2) 
 sayTimeCN(time_now.tm_hour, time_now.tm_min) 
 # display.refresh()  
 
@@ -313,6 +320,7 @@ while True:
 gc.collect()         
 display.show(None)        
 pass
+
 
 
 
