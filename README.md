@@ -34,7 +34,7 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 
 ## Guide
 
-1. Use the Flash Download Tool tool to burn the Combined .bin in the Firmware folder to the board
+1. Use the Flash Download Tool to burn the Combined .bin in the Firmware folder to the board
 2. After rebooting, Then copy the firmware_0826.uf2 file to a USB stick
 3. After rebooting, copy the contents of the softerware folder to the displayed USB stick
 
