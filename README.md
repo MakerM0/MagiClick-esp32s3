@@ -32,6 +32,22 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 
 
 
+## Guide
+
+1. Use the Flash Download Tool tool to burn the Combined .bin in the Firmware folder to the board
+2. After rebooting, Then copy the firmware_0826.uf2 file to a USB stick
+3. After rebooting, copy the contents of the softerware folder to the displayed USB stick
+
+Settings.toml modify your wifi information, know the weather key (need to go to the official website to apply) and city
+
+The main button is used to access the function options
+
+The side button or flip button can exit the current function and return to the home page
+
+
+
+
+
 ![4](documents/images/4.jpg)
 
 ![5](documents/images/5.jpg)
