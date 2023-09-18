@@ -48,19 +48,19 @@ The side button or flip button can exit the current function and return to the h
 
 
 
-![4](documents/images/4.jpg)
+![4](documents/images/11.jpg)
 
-![5](documents/images/5.jpg)
+![5](documents/images/15.jpg)
 
-![6](documents/images/6.jpg)
+![6](documents/images/12.jpg)
 
-![7](documents/images/7.jpg)
+![7](documents/images/13.jpg)
 
-![8](documents/images/8.jpg)
+![8](documents/images/14.jpg)
 
-![9](documents/images/9.jpg)
+![9](documents/images/16.jpg)
 
-![10](documents/images/10.jpg)
+![10](documents/images/17.jpg)
 
 ## Mechanical
 
