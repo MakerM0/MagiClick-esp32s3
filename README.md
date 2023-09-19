@@ -44,7 +44,7 @@ The main button is used to access the function options
 
 The side button or flip button can exit the current function and return to the home page
 
-
+ [如何下载固件.pdf](documents/如何下载固件.pdf) 
 
 
 
