@@ -26,8 +26,8 @@ from adafruit_progressbar.horizontalprogressbar import (
 )
 
 
-WORK = 1
-SHORTBREAK = 1
+WORK = 25
+SHORTBREAK = 5
 COLOR_STOPED = 0xff0000
 COLOR_STARTED = 0x00ff00
 
