@@ -1,4 +1,11 @@
 '''
+https://github.com/MakerM0/MagiClick-esp32s3
+
+v0.3.0
+    20230922
+    add voice
+
+
 v0.2.0
     20230723
     add bmp
@@ -11,9 +18,33 @@ import adafruit_imageload
 import asyncio
 import random 
 import terminalio
+
+import audiocore
+import board
+import audiobusio
  
 
+voice = ["1", "ai", "3", "4", "5", "6"]
 
+def playwave(filename):
+    audiopwr_on()
+    i2s = audiobusio.I2SOut(AUDIO_BCK,AUDIO_WS,AUDIO_DATA)
+    try :
+        wave_file = open('audio/cn_girl/{}'.format(filename), "rb")
+        wave = audiocore.WaveFile(wave_file)
+        i2s.play(wave)
+        while i2s.playing:
+            pass
+        wave.deinit()
+        wave_file.close()
+        wave_file=None
+        gc.collect()
+         
+    except Exception as e : 
+        print (e)
+    i2s.deinit()
+    audiopwr_off()
+    pass
 
 class Dice:
     def __init__(self):
@@ -78,6 +109,7 @@ async def draw(dice):
             tile_grid.x = display.width//2-50 +random.randint(-10,10)
             tile_grid.y = display.height//2-50+random.randint(-10,10)
             if time.monotonic()-starttick >= TICK_DICE:
+                playwave("{}.wav".format(voice[dice.value])) 
                 dice.f_loop=False
                 dice.f_stop=True
         
@@ -123,6 +155,13 @@ async def button_handle(dice):
 # 
 async def main():
     dice =Dice()
+
+    # playwave("{}.wav".format(voice[0])) 
+    # playwave("{}.wav".format(voice[1])) 
+    # playwave("{}.wav".format(voice[2])) 
+    # playwave("{}.wav".format(voice[3])) 
+    # playwave("{}.wav".format(voice[4])) 
+    # playwave("{}.wav".format(voice[5])) 
     
     
     
