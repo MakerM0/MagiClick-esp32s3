@@ -30,7 +30,7 @@ def playwave(filename):
     audiopwr_on()
     i2s = audiobusio.I2SOut(AUDIO_BCK,AUDIO_WS,AUDIO_DATA)
     try :
-        wave_file = open('audio/cn_girl/{}'.format(filename), "rb")
+        wave_file = open(filename, "rb")
         wave = audiocore.WaveFile(wave_file)
         i2s.play(wave)
         while i2s.playing:
@@ -45,6 +45,7 @@ def playwave(filename):
     i2s.deinit()
     audiopwr_off()
     pass
+
 
 class Dice:
     def __init__(self):
@@ -93,12 +94,13 @@ display.show(splash)
    
         
 
-TICK_DICE = 3.0
+TICK_DICE = 1.0
 # 
 async def draw(dice):
     starttick=0.0
     while True:
         if dice.f_start==True:
+            playwave("audio/dice/dice.wav") 
             starttick = time.monotonic()
             dice.f_start=False            
             dice.f_loop=True
@@ -109,7 +111,7 @@ async def draw(dice):
             tile_grid.x = display.width//2-50 +random.randint(-10,10)
             tile_grid.y = display.height//2-50+random.randint(-10,10)
             if time.monotonic()-starttick >= TICK_DICE:
-                playwave("{}.wav".format(voice[dice.value])) 
+                playwave("audio/cn_girl/{}.wav".format(voice[dice.value])) 
                 dice.f_loop=False
                 dice.f_stop=True
         
