@@ -1,4 +1,7 @@
 '''
+v0.2.1
+    20230925
+    modify app directory
 v0.2.0
     20230723
     
@@ -16,7 +19,7 @@ import adafruit_imageload
 
 class Launch:
     def __init__(self):
-        self.file_list = self.get_files('/')
+        self.file_list = self.get_files('/app/')
         self.file_cnt = len(self.file_list)
         self.index=0
         pass    
@@ -131,7 +134,7 @@ while True:
         print(gc.mem_free())
     elif key==0:
         print('OK')
-        startApp=launch.file_list[launch.index]
+        startApp='/app/'+ launch.file_list[launch.index]
         supervisor.set_next_code_file(startApp)
         print("\033[2J",end="") #clear screen
         print("Free memory:"+str(gc.mem_free()))
