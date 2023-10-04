@@ -87,7 +87,17 @@ Add the .py file to the app folder
 
 ## License
 
-(hardware/mechanical)[Creative Commons — Attribution-NonCommercial-ShareAlike 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+(documents/hardware/mechanical)[Creative Commons — Attribution-NonCommercial-ShareAlike 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
+
+## About the Battery
+
+Users can choose the **801230** battery with protection board.
+
+However, choose a battery with safety certification.
+
+Users need to control their own risks.
 
 
 
