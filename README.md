@@ -99,6 +99,16 @@ However, choose a battery with safety certification.
 
 Users need to control their own risks.
 
+In the case of non-optimization, the battery will last at least 3 hours and the charging current is currently limited to 100mA.
+
+The battery needs to be soldered to a board containing the MCU.
+
+![屏幕截图 08-10-2023 19.32.42](documents/images/08-10-2023 19.32.42.jpg)
+
+
+
+
+
 
 
 ## Extra
