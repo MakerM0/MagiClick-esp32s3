@@ -42,6 +42,7 @@ old = 0
 while True:
     now =  time.monotonic()
     if (now-old) >= 2.0:
+        old= now
         print(f'{get_voltage(analog_pin)} V')         
 
     key = getkey() 
