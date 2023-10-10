@@ -59,7 +59,19 @@ Add the .py file to the app folder
 
 
 
+## How to add a contribution
 
+Please use PR to submit contributions
+
+In the **thirdparty** folder, create a project folder according to your own content, the naming needs to be intuitive and easy to understand, and the open source license should be added according to your own wishes
+
+Please add a summary of the contributions in the file **contributer.md**, Add it at the end
+
+请使用pr提交贡献内容
+
+在**第三方**文件夹内，根据自己的内容创建一个项目文件夹，命名需要直观易懂，开源协议请根据自我意愿添加
+
+请添加所贡献的内容概要在文件contributer.md，在结尾添加即可
 
 
 
