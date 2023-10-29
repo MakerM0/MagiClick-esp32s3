@@ -132,7 +132,7 @@ In the case of non-optimization, the battery will last at least 3 hours and the 
 
 The battery needs to be soldered to a board containing the MCU.
 
-![08-10-2023 19.32.42](documents/images/08-10-2023 19.32.42.jpg)
+![18](documents/images/18.png)
 
 
 
