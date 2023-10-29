@@ -13,12 +13,23 @@
 # [MagiClick S3](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
 [afdian.net](https://afdian.net/a/modular)     |     [bilibili](https://space.bilibili.com/204526879)    |    [Circuitpython](https://circuitpython.org/board/magiclick_s3/)     |    [OSHWHUB](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
 
+
+
+## Supported modules
+
+- ESP32-S3-MINI-1-N4R2
+- ESP32-S3-MINI-1-N8
+
+
+
+## Specifications
+
 A single-button keyboard, based on ESP32-S3, with a color screen.
 
 CircuitPython is used by default. You can also use MicroPython, Arduino.
 
-- The display part adopts a 0.85-inch color screen, 128x128 resolution, and the display content is delicate
-- The main control board is currently only designed with the esp32s3 version, which supports WiFi, flash and RAM large enough to help add more functional scripts
+- 0.85-inch color screen, 128x128 resolution
+-  esp32-s3, which supports WiFi, flash and RAM large enough to help add more functional scripts
 - The overall operation is mainly based on the mechanical axis buttons in the middle, and the left and right sides of the fuselage are generally used as auxiliaries
 - The keyboard axis uses a pluggable design, and you can freely choose the silent axis or others
 - Built-in a small speaker, listening to a sound is so easy
@@ -90,6 +101,12 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 ![9](documents/images/16.jpg)
 
 ![10](documents/images/17.jpg)
+
+<img src="extention/MLX90640/images/6.jpg" alt="6" style="zoom: 80%;" />
+
+<img src="extention/MLX90640/images/5.jpg" alt="5" style="zoom:80%;" />
+
+
 
 ## Mechanical
 
