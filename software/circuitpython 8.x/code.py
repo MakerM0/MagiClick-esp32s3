@@ -1,4 +1,7 @@
 '''
+v0.2.2
+    202411
+    fix func quit order
 v0.2.1
     20230925
     modify app directory
@@ -9,7 +12,7 @@ v0.2.0
 
 '''
 from magiclick import *
-
+import alarm
 import supervisor
 import os
 from adafruit_display_shapes.rect import Rect
@@ -65,7 +68,7 @@ print( launch.file_cnt)
 DISPLAY_WIDTH = display.width
 DISPLAY_HEIGHT = display.height
 
-
+launch.index =alarm.sleep_memory[0]
  
 
 display.show(None)
@@ -80,7 +83,7 @@ image=None
 palette=None
 #image, 8bit png
 try:
-    image, palette = adafruit_imageload.load('/images/{}_96px.png'.format(launch.file_list[0].split('.')[0]))
+    image, palette = adafruit_imageload.load('/images/{}_96px.png'.format(launch.file_list[launch.index].split('.')[0]))
 except Exception as e:
     image, palette = adafruit_imageload.load('/images/python_96px.png')
 # Set the transparency index color to be hidden
@@ -134,6 +137,7 @@ while True:
         print(gc.mem_free())
     elif key==0:
         print('OK')
+        alarm.sleep_memory[0] = launch.index
         startApp='/app/'+ launch.file_list[launch.index]
         supervisor.set_next_code_file(startApp)
         print("\033[2J",end="") #clear screen
