@@ -31,11 +31,9 @@
 
 ## Mechanical
 
-### STL
+#### STL
 
-The latest file for PCB  version 2.0
-
-https://makerworld.com/zh/models/404976#profileId-306794
+[The latest files for PCB  version 2.0](https://makerworld.com/zh/models/404976#profileId-306794)
 
 
 
