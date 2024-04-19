@@ -1,4 +1,8 @@
 '''
+v0.2.4
+    20240419
+    fix time get
+
 v0.2.3
     20230913
     del fail info ...
@@ -153,7 +157,9 @@ TIME_API = "http://worldtimeapi.org/api/ip"
 
 pool = socketpool.SocketPool(wifi.radio)
 ntp = adafruit_ntp.NTP(pool, tz_offset=8, server = "ntp1.aliyun.com")
-
+# Weird, Sometimes it's not possible to get the exact time all at once
+time.sleep(0.5)
+ntp = adafruit_ntp.NTP(pool, tz_offset=8, server = "ntp1.aliyun.com")
  
 
 

@@ -13,12 +13,19 @@
 # [MagiClick S3](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
 [afdian.net](https://afdian.net/a/modular)     |     [bilibili](https://space.bilibili.com/204526879)    |    [Circuitpython](https://circuitpython.org/board/magiclick_s3_n4r2/)     |    [OSHWHUB](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
 
+<a href="https://www.pcbway.com/project/shareproject/MagiClick_S3_Single_506b8396.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
-
-## Supported modules
+## Supported modules & chips
 
 - ESP32-S3-MINI-1-N4R2
 - ESP32-S3-MINI-1-N8
+- ESP32-S3FN8
+
+
+
+## Hardware 
+
+[Ver 2.3b ](hardware)
 
 
 
@@ -49,7 +56,7 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 2. After rebooting, Then copy the **.uf2** file to a USB stick
 3. After rebooting, copy the contents of the softerware folder to the displayed USB stick
 
- [如何下载固件.pdf](documents/如何下载固件.pdf) 
+ [help](documents/如何下载固件.pdf) 
 
 
 #### Settings.toml 
@@ -70,19 +77,13 @@ Add the .py file to the app folder
 
 
 
-## How to add a contribution
+## How to contribute
 
 Please use PR to submit contributions
 
 In the **thirdparty** folder, create a project folder according to your own content, the naming needs to be intuitive and easy to understand, and the open source license should be added according to your own wishes
 
 Please add a summary of the contributions in the file **contributer.md**, Add it at the end
-
-请使用pr提交贡献内容
-
-在**第三方**文件夹内，根据自己的内容创建一个项目文件夹，命名需要直观易懂，开源协议请根据自我意愿添加
-
-请添加所贡献的内容概要在文件contributer.md，在结尾添加即可
 
 
 
