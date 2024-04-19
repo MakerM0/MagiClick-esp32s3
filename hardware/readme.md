@@ -8,5 +8,7 @@
 
 - The audio chip was replaced
 
+**Click on the image below and you can make it directly**
+
 <a href="https://www.pcbway.com/project/shareproject/MagiClick_S3_Single_506b8396.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
