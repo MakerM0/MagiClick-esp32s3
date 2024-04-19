@@ -29,6 +29,16 @@
 
 ![19](documents/images/19.png)
 
+## Mechanical
+
+### STL
+
+The latest file for PCB  version 2.0
+
+https://makerworld.com/zh/models/404976#profileId-306794
+
+
+
 ## Specifications
 
 A single-button keyboard, based on ESP32-S3, with a color screen.
@@ -109,11 +119,7 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 
 
 
-## Mechanical
 
-![2](documents/images/2.gif)
-
-![3](documents/images/3.gif)
 
 ## License
 
