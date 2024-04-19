@@ -27,7 +27,7 @@
 
 [Ver 2.3b ](hardware)
 
-
+![19](documents/images/19.png)
 
 ## Specifications
 
