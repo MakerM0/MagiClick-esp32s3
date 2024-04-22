@@ -25,9 +25,16 @@
 
 ## Hardware 
 
-[Ver 2.3b ](hardware)
+### V2.3
+
+[HW 2.3b ](hardware)
+You can find the software [here](https://github.com/MakerM0/MagiClick-S3-Single)
 
 ![19](documents/images/19.png)
+
+
+
+
 
 ## Mechanical
 
