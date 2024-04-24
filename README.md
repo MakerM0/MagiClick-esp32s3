@@ -42,7 +42,7 @@ You can find the software [here](https://github.com/MakerM0/MagiClick-S3-Single)
 
 [The latest files for PCB  version 2.0](https://makerworld.com/zh/models/404976#profileId-306794)
 
-
+[The latest files for PCB  version 2.3](https://makerworld.com/zh/models/440612#profileId-346290)
 
 ## Specifications
 
