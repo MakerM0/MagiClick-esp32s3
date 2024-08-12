@@ -19,7 +19,7 @@
 
 - ESP32-S3-MINI-1-N4R2
 - ESP32-S3-MINI-1-N8
-- ESP32-S3FN8
+- ESP32-S3FN8  (for v2.3 pcb)
 
 
 
