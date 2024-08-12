@@ -27,8 +27,17 @@
 
 ### V2.3
 
-[HW 2.3b ](hardware)
 You can find the software [here](https://github.com/MakerM0/MagiClick-S3-Single)
+
+
+
+[HW 2.3c](hardware) 
+
+![7](documents/images/7.png)
+
+
+
+[HW 2.3b ](hardware)
 
 ![19](documents/images/19_1.png)
 
@@ -43,6 +52,8 @@ You can find the software [here](https://github.com/MakerM0/MagiClick-S3-Single)
 [The latest files for PCB  version 2.0](https://makerworld.com/zh/models/404976#profileId-306794)
 
 [The latest files for PCB  version 2.3](https://makerworld.com/zh/models/440612#profileId-346290)
+
+[The latest files for PCB  version 2.3](https://makerworld.com/zh/models/584488#profileId-505582)
 
 ## Specifications
 
