@@ -11,7 +11,7 @@
 
 
 # [MagiClick S3](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
-[afdian.net](https://afdian.net/a/modular)     |     [bilibili](https://space.bilibili.com/204526879)    |    [Circuitpython](https://circuitpython.org/board/magiclick_s3_n4r2/)     |    [OSHWHUB](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
+[afdian.com](https://afdian.com/a/modular)     |     [bilibili](https://space.bilibili.com/204526879)    |    [Circuitpython](https://circuitpython.org/board/magiclick_s3_n4r2/)     |    [OSHWHUB](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
 
 <a href="https://www.pcbway.com/project/shareproject/MagiClick_S3_Single_506b8396.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
@@ -24,6 +24,16 @@
 
 
 ## Hardware 
+
+### Difference between v2.0 and v2.3
+
+The control IC of the display is different.
+
+When you update the firmware of the 2.0 hardware to version 9.x, the contents of the 2.3 software folder can then be used by the 2.0 hardware.
+
+
+
+If you want one directly, you can purchase it [here](https://www.elecrow.com/magiclick-open-source-multifunctional-programmable-mechanical.html).
 
 ### V2.3
 
@@ -42,6 +52,10 @@ You can find the software [here](https://github.com/MakerM0/MagiClick-S3-Single)
 ![19](documents/images/19_1.png)
 
 
+
+HW 2.0
+
+![1](documents/images/1.jpg)
 
 
 
@@ -72,7 +86,7 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 - One reset button at the bottom
 - On-board colorful LEDs
 
-![1](documents/images/1.jpg)
+
 
 
 
@@ -145,6 +159,8 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 
 ## About the Battery
 
+### HW v2.0
+
 Users can choose the **801230** battery with protection board.
 
 However, choose a battery with safety certification.
@@ -157,7 +173,9 @@ The battery needs to be soldered to a board containing the MCU.
 
 ![18](documents/images/18.png)
 
+### HW v2.3
 
+Users can choose the **602025** battery with protection board.
 
 
 
