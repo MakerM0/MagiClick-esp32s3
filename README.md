@@ -17,9 +17,9 @@
 
 ## Supported modules & chips
 
-- ESP32-S3-MINI-1-N4R2
-- ESP32-S3-MINI-1-N8
-- ESP32-S3FN8  (for v2.3 pcb)
+- ESP32-S3-MINI-1-N4R2  (for  Hardware v2.0)
+- ESP32-S3-MINI-1-N8 (for  Hardware v2.0)
+- ESP32-S3FN8  (for  Hardware v2.3)
 
 
 
@@ -27,17 +27,22 @@
 
 ### Difference between v2.0 and v2.3
 
-The control IC of the display is different.
+|             |                             v2.0                             |                             v2.3                             |
+| ----------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| LCD display | <img src="D:\WorkShop\PROJ\MagicButton\MagiClick-esp32s3\documents\images\GC9107.jpg" alt="GC9107" style="zoom:25%;" />GC9107 | <img src="D:\WorkShop\PROJ\MagicButton\MagiClick-esp32s3\documents\images\NV3023.jpg" alt="NV3023" style="zoom:25%;" />NV3023 |
+|             |                                                              |                                                              |
 
-When you update the firmware of the 2.0 hardware to version 9.x, the contents of the 2.3 software folder can then be used by the 2.0 hardware.
 
 
+When you update the firmware of the 2.0 hardware to version 9.x, the contents of the 2.3 software [here](https://github.com/MakerM0/MagiClick-S3-Single) folder can then be used by the 2.0 hardware.
+
+
+
+## Purchase
 
 If you want one directly, you can purchase it [here](https://www.elecrow.com/magiclick-open-source-multifunctional-programmable-mechanical.html).
 
-### V2.3
 
-You can find the software [here](https://github.com/MakerM0/MagiClick-S3-Single)
 
 
 
@@ -68,6 +73,8 @@ HW 2.0
 [The latest files for PCB  version 2.3](https://makerworld.com/zh/models/440612#profileId-346290)
 
 [The latest files for PCB  version 2.3](https://makerworld.com/zh/models/584488#profileId-505582)
+
+
 
 ## Specifications
 
@@ -141,8 +148,6 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 
 ![9](documents/images/16.jpg)
 
-![10](documents/images/17.jpg)
-
 <img src="extention/MLX90640/images/6.jpg" alt="6" style="zoom: 80%;" />
 
 <img src="extention/MLX90640/images/5.jpg" alt="5" style="zoom:80%;" />
@@ -150,10 +155,6 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 
 
 
-
-## License
-
-(documents/hardware/mechanical)[Creative Commons — Attribution-NonCommercial-ShareAlike 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
 
@@ -179,8 +180,6 @@ Users can choose the **602025** battery with protection board.
 
 
 
-
-
 ## Extra
 
 The most icons is from https://icons8.com/.
@@ -188,3 +187,10 @@ The most icons is from https://icons8.com/.
 Other resource files come from the internet. 
 
 If there are copyright issues involved, please contact me to delete them.
+
+
+
+## License
+
+(documents/hardware/mechanical)[Creative Commons — Attribution-NonCommercial-ShareAlike 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
