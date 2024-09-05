@@ -23,13 +23,13 @@
 
 
 
-## Hardware 
+# Hardware 
 
 ### Difference between v2.0 and v2.3
 
 |             |                             v2.0                             |                             v2.3                             |
 | ----------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| LCD display | <img src="D:\WorkShop\PROJ\MagicButton\MagiClick-esp32s3\documents\images\GC9107.jpg" alt="GC9107" style="zoom:25%;" />GC9107 | <img src="D:\WorkShop\PROJ\MagicButton\MagiClick-esp32s3\documents\images\NV3023.jpg" alt="NV3023" style="zoom:25%;" />NV3023 |
+| LCD display | <img src="D:\WorkShop\PROJ\MagicButton\MagiClick-esp32s3\documents\images\GC9107.png" alt="GC9107" style="zoom:25%;" />GC9107 | <img src="D:\WorkShop\PROJ\MagicButton\MagiClick-esp32s3\documents\images\NV3023.png" alt="NV3023" style="zoom:25%;" />NV3023 |
 |             |                                                              |                                                              |
 
 
@@ -38,7 +38,7 @@ When you update the firmware of the 2.0 hardware to version 9.x, the contents of
 
 
 
-## Purchase
+# Purchase
 
 If you want one directly, you can purchase it [here](https://www.elecrow.com/magiclick-open-source-multifunctional-programmable-mechanical.html).
 
@@ -64,7 +64,7 @@ HW 2.0
 
 
 
-## Mechanical
+# Mechanical
 
 #### STL
 
@@ -76,7 +76,7 @@ HW 2.0
 
 
 
-## Specifications
+# Specifications
 
 A single-button keyboard, based on ESP32-S3, with a color screen.
 
@@ -97,7 +97,7 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 
 
 
-## Guide
+# Guide
 
 1. Use the Flash Download Tool to burn the Combined .bin in the Firmware folder to the board
 2. After rebooting, Then copy the **.uf2** file to a USB stick
@@ -180,7 +180,7 @@ Users can choose the **602025** battery with protection board.
 
 
 
-## Extra
+# Extra
 
 The most icons is from https://icons8.com/.
 
@@ -190,7 +190,7 @@ If there are copyright issues involved, please contact me to delete them.
 
 
 
-## License
+# License
 
 (documents/hardware/mechanical)[Creative Commons — Attribution-NonCommercial-ShareAlike 4.0 International — CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
