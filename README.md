@@ -15,6 +15,8 @@
 
 <a href="https://www.pcbway.com/project/shareproject/MagiClick_S3_Single_506b8396.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
+
+
 ## Supported modules & chips
 
 - ESP32-S3-MINI-1-N4R2  (for  Hardware v2.0)
@@ -23,22 +25,6 @@
 
 
 
-# Hardware 
-
-### Difference between v2.0 and v2.3
-
-|                                          |                             v2.0                             |                             v2.3                             |
-| ---------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| Display Driver                           |                            GC9107                            |                            NV3023                            |
-|                                          | ![GC9107](https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df) | ![NV3023](https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3) |
-| Battery(with a protection circuit board) |                            801230                            |                       602025 or 802025                       |
-|                                          | ![18](https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280) |                                                              |
-
-
-
-
-
-When you update the firmware of the 2.0 hardware to version 9.x, the contents of the 2.3 software [here](https://github.com/MakerM0/MagiClick-S3-Single) folder can then be used by the 2.0 hardware.
 
 
 
@@ -68,6 +54,43 @@ HW 2.0
 
 
 
+# Specifications
+
+A single-button keyboard, based on ESP32-S3, with a color screen.
+
+CircuitPython is used by default. You can also use MicroPython, Arduino.
+
+- 0.85-inch color screen, 128x128 resolution
+- esp32-s3, which supports WiFi, flash and RAM large enough to help add more functional scripts
+- The overall operation is mainly based on the mechanical axis buttons in the middle, and the left and right sides of the fuselage are generally used as auxiliaries
+- The keyboard axis uses a pluggable design, and you can freely choose the silent axis or others
+- Built-in a small speaker, listening to a sound is so easy
+- An on-board 6-axis motion sensor
+- There is an expansion port on the rear side of the fuselage
+- USB Type-C interface
+- One reset button at the bottom
+- On-board colorful LEDs
+
+
+
+# Hardware 
+
+### Difference between v2.0 and v2.3
+
+|                                          |                             v2.0                             |                             v2.3                             |
+| ---------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Display Driver                           |                            GC9107                            |                            NV3023                            |
+|                                          | ![GC9107](https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df) | ![NV3023](https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3) |
+| Battery(with a protection circuit board) |                            801230                            |                       602025 or 802025                       |
+|                                          | ![18](https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280) |                                                              |
+
+
+
+
+
+When you update the firmware of the 2.0 hardware to version 9.x, the contents of the 2.3 software [here](https://github.com/MakerM0/MagiClick-S3-Single) folder can then be used by the 2.0 hardware.
+
+
 # Mechanical
 
 #### STL
@@ -80,22 +103,7 @@ HW 2.0
 
 
 
-# Specifications
 
-A single-button keyboard, based on ESP32-S3, with a color screen.
-
-CircuitPython is used by default. You can also use MicroPython, Arduino.
-
-- 0.85-inch color screen, 128x128 resolution
--  esp32-s3, which supports WiFi, flash and RAM large enough to help add more functional scripts
-- The overall operation is mainly based on the mechanical axis buttons in the middle, and the left and right sides of the fuselage are generally used as auxiliaries
-- The keyboard axis uses a pluggable design, and you can freely choose the silent axis or others
-- Built-in a small speaker, listening to a sound is so easy
-- An on-board 6-axis motion sensor
-- There is an expansion port on the rear side of the fuselage
-- USB Type-C interface
-- One reset button at the bottom
-- On-board colorful LEDs
 
 
 
