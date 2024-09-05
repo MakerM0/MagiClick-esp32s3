@@ -27,10 +27,12 @@
 
 ### Difference between v2.0 and v2.3
 
-|                |                             v2.0                             |                             v2.3                             |
-| -------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| Display Driver |                            GC9107                            |                            NV3023                            |
-|                | ![GC9107](https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df) | ![NV3023](https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3) |
+|                                          |                             v2.0                             |                             v2.3                             |
+| ---------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Display Driver                           |                            GC9107                            |                            NV3023                            |
+|                                          | ![GC9107](https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df) | ![NV3023](https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3) |
+| Battery(with a protection circuit board) |                            801230                            |                       602025 or 802025                       |
+|                                          | ![18](https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280) |                                                              |
 
 
 
@@ -157,28 +159,6 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 
 
 
-
-
-
-## About the Battery
-
-### HW v2.0
-
-Users can choose the **801230** battery with protection board.
-
-However, choose a battery with safety certification.
-
-Users need to control their own risks.
-
-In the case of non-optimization, the battery will last at least 3 hours and the charging current is currently limited to 100mA.
-
-The battery needs to be soldered to a board containing the MCU.
-
-![18](documents/images/18.png)
-
-### HW v2.3
-
-Users can choose the **602025** battery with protection board.
 
 
 
