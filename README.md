@@ -27,10 +27,12 @@
 
 ### Difference between v2.0 and v2.3
 
-|             |                             v2.0                             |                             v2.3                             |
-| ----------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| LCD display | <img src="D:\WorkShop\PROJ\MagicButton\MagiClick-esp32s3\documents\images\GC9107.png" alt="GC9107" style="zoom:25%;" />GC9107 | <img src="D:\WorkShop\PROJ\MagicButton\MagiClick-esp32s3\documents\images\NV3023.png" alt="NV3023" style="zoom:25%;" />NV3023 |
-|             |                                                              |                                                              |
+|                |                             v2.0                             |                             v2.3                             |
+| -------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Display Driver |                            GC9107                            |                            NV3023                            |
+|                | ![GC9107](https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df) | ![NV3023](https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3) |
+
+
 
 
 
