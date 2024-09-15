@@ -88,7 +88,22 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 
 
 
-When you update the firmware of the 2.0 hardware to version 9.x, the contents of the 2.3 software [here](https://github.com/MakerM0/MagiClick-S3-Single) folder can then be used by the 2.0 hardware.
+
+
+
+
+# Software
+
+
+
+The "software" and "firmware" folders in this repository primarily contains the source code related to the hardware version 2.0. 
+
+When you update the circuitpython firmware of the 2.0 hardware to version 9.x, the contents of the 2.3 software [here](https://github.com/MakerM0/MagiClick-S3-Single) folder can then be used by the 2.0 hardware.
+
+
+
+For version 2.3, please click  [here](https://github.com/MakerM0/MagiClick-S3-Single).
+
 
 
 # Mechanical
