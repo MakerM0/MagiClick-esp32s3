@@ -84,7 +84,8 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 | Battery(with a protection circuit board) |                            801230                            |                       602025 or 802025                       |
 |                                          | ![18](https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280) |                                                              |
 
-
+### v2.3
+![20240819_164759](https://github.com/user-attachments/assets/72df055e-1152-4552-a693-6c6f89c9b059)
 
 
 
