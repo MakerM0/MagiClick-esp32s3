@@ -83,6 +83,10 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 |                                          | ![GC9107](https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df) | ![NV3023](https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3) |
 | Battery(with a protection circuit board) |                            801230                            |                       602025 or 802025                       |
 |                                          | ![18](https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280) |                                                              |
+| Keyboard switch                          | ![16-09-2024 13 45 53](https://github.com/user-attachments/assets/591edf82-1dd9-41aa-b90f-4f15ff3cf00b) | ![16-09-2024 13 45 38](https://github.com/user-attachments/assets/6c8d2646-7472-4314-a1af-7253ca38c896) |
+|                                          |                                                              |                                                              |
+
+
 
 ### v2.3
 ![20240819_164759](https://github.com/user-attachments/assets/72df055e-1152-4552-a693-6c6f89c9b059)
