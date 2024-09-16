@@ -99,6 +99,8 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 
 # Software
 
+Supports development using Arduino, CircuitPython, and MicroPython.
+
 
 
 The "software" and "firmware" folders in this repository primarily contains the source code related to the hardware version 2.0. 
