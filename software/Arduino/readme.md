@@ -14,4 +14,4 @@ Please use [PlatformIO](https://platformio.org/platformio-ide) for compilation a
 
 Flashing this firmware may overwrite the previous python file, please make a backup
 
-<img src="D:/WorkShop/PROJ/MagicButton/MagiClick-esp32s3/software/Arduino/TinyFlap/pic.png" alt="pic" style="zoom: 50%;" />
+<img src="TinyFlap\pic.png" alt="pic" style="zoom: 50%;" />
