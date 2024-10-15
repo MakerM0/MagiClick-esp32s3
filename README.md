@@ -12,9 +12,7 @@
 
 https://github.com/user-attachments/assets/02206fc1-4ecb-459a-b24e-a9fd3fc22468
 
-# [MagiClick S3](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
-
-[afdian.com](https://afdian.com/a/modular)     |     [bilibili](https://space.bilibili.com/204526879)    |    [Circuitpython](https://circuitpython.org/board/magiclick_s3_n4r2/)     |    [OSHWHUB](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
+# MagiClick S3
 
 <a href="https://www.pcbway.com/project/shareproject/MagiClick_S3_Single_506b8396.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
@@ -37,23 +35,11 @@ https://github.com/user-attachments/assets/02206fc1-4ecb-459a-b24e-a9fd3fc22468
 
 
 
+| HW 2.0                       | [HW 2.3b ](hardware)             | [HW 2.3c](hardware)          |
+| ---------------------------- | -------------------------------- | ---------------------------- |
+| ![1](documents/images/1.jpg) | ![19](documents/images/19_1.png) | ![7](documents/images/7.png) |
 
 
-[HW 2.3c](hardware) 
-
-![7](documents/images/7.png)
-
-
-
-[HW 2.3b ](hardware)
-
-![19](documents/images/19_1.png)
-
-
-
-HW 2.0
-
-![1](documents/images/1.jpg)
 
 
 
@@ -126,11 +112,7 @@ For version 2.3, please click  [here](https://github.com/MakerM0/MagiClick-S3-Si
 
 [The latest files for PCB  version 2.3](https://makerworld.com/zh/models/584488#profileId-505582)
 
-
-
-
-
-
+[PACKAGING BOX](https://makeronline.com/en/model/product%20packaging%20box/48433.html)
 
 
 
@@ -173,23 +155,12 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 
 ## Images
 
-![4](documents/images/11.jpg)
-
-![5](documents/images/15.jpg)
-
-![6](documents/images/12.jpg)
-
-![7](documents/images/13.jpg)
-
-![8](documents/images/14.jpg)
-
-![9](documents/images/16.jpg)
-
-<img src="extention/MLX90640/images/6.jpg" alt="6" style="zoom: 80%;" />
-
-<img src="extention/MLX90640/images/5.jpg" alt="5" style="zoom:80%;" />
-
-![20240929_153110_mini](documents/images/20240929_153110_mini.jpg)
+| ![4](documents/images/11.jpg)                                | ![5](documents/images/15.jpg)                                | ![6](documents/images/12.jpg)                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![9](documents/images/16.jpg)                                | <img src="extention/MLX90640/images/5.jpg" alt="5" style="zoom:80%;" /> | ![20240929_153110_mini](documents/images/20240929_153110_mini.jpg) |
+| ![7](documents/images/13.jpg)                                | ![8](documents/images/14.jpg)                                | <img src="extention/MLX90640/images/6.jpg" alt="6" style="zoom: 80%;" /> |
+| ![172822164043371300-670291c869e3_thumbnail](documents/images/172822164043371300-670291c869e3_thumbnail.jpg) |                                                              |                                                              |
+|                                                              |                                                              |                                                              |
 
 
 
