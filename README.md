@@ -10,7 +10,10 @@
 </p>
 
 
+https://github.com/user-attachments/assets/02206fc1-4ecb-459a-b24e-a9fd3fc22468
+
 # [MagiClick S3](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
+
 [afdian.com](https://afdian.com/a/modular)     |     [bilibili](https://space.bilibili.com/204526879)    |    [Circuitpython](https://circuitpython.org/board/magiclick_s3_n4r2/)     |    [OSHWHUB](https://oshwhub.com/kakaka/lao-ban-jian-yi-wei-ke-bian-chen)
 
 <a href="https://www.pcbway.com/project/shareproject/MagiClick_S3_Single_506b8396.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
@@ -30,7 +33,7 @@
 
 # Purchase
 
-If you want one directly, you can purchase it [here](https://www.elecrow.com/magiclick-open-source-multifunctional-programmable-mechanical.html).
+[you can conveniently purchase it from here](https://www.elecrow.com/magiclick-open-source-multifunctional-programmable-mechanical.html).
 
 
 
@@ -186,7 +189,7 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 
 <img src="extention/MLX90640/images/5.jpg" alt="5" style="zoom:80%;" />
 
-
+![20240929_153110_mini](documents/images/20240929_153110_mini.jpg)
 
 
 
