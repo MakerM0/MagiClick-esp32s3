@@ -157,8 +157,8 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![9](documents/images/16.jpg)                                | <img src="extention/MLX90640/images/5.jpg" alt="5" style="zoom:80%;" /> | ![20240929_153110_mini](documents/images/20240929_153110_mini.jpg) |
 | ![7](documents/images/13.jpg)                                | ![8](documents/images/14.jpg)                                | <img src="extention/MLX90640/images/6.jpg" alt="6" style="zoom: 80%;" /> |
-| ![172822164043371300-670291c869e3_thumbnail](documents/images/172822164043371300-670291c869e3_thumbnail.jpg) | ![resin](documents\images\resin.jpg)                         | ![20241128_151456](documents\images\20241128_151456.jpg)     |
-| ![20241128_151031](documents\images\20241128_151031.jpg)     | ![20241128_151131](documents\images\20241128_151131.jpg)     |                                                              |
+| ![172822164043371300-670291c869e3_thumbnail](documents/images/172822164043371300-670291c869e3_thumbnail.jpg) | ![resin](documents/images/resin.jpg)                         | ![20241128_151456](documents/images/20241128_151456.jpg)     |
+| ![20241128_151031](documents/images/20241128_151031.jpg)     | ![20241128_151131](documents/images/20241128_151131.jpg)     |                                                              |
 
 
 
