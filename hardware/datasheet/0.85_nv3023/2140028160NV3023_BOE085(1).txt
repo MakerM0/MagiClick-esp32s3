@@ -1,0 +1,90 @@
+void NV3023_BOE085_Initial(void)//for boe0.85
+{//VCI=2.8V
+//----------------RESET LCD Driver ------------//
+LCD_RESET=1;
+Delay_ms(10);
+LCD_RESET=0;
+Delay_ms(200);
+LCD_RESET=1;
+Delay_ms(120);
+LCD_NV3023_CMD(0xff);
+LCD_NV3023_Parameter(0xa5); //switch system register to write
+LCD_NV3023_CMD(0x3E);
+LCD_NV3023_Parameter(0x09);
+LCD_NV3023_CMD(0x3A);
+LCD_NV3023_Parameter(0x65);
+LCD_NV3023_CMD(0x82);
+LCD_NV3023_Parameter(0x00);
+LCD_NV3023_CMD(0x98);
+LCD_NV3023_Parameter(0x00);
+LCD_NV3023_CMD(0x63);
+LCD_NV3023_Parameter(0x0f);
+LCD_NV3023_CMD(0x64);
+LCD_NV3023_Parameter(0x0f);
+LCD_NV3023_CMD(0xB4);
+LCD_NV3023_Parameter(0x34);
+LCD_NV3023_CMD(0xB5);
+LCD_NV3023_Parameter(0x30);
+LCD_NV3023_CMD(0x83);
+LCD_NV3023_Parameter(0x03);
+LCD_NV3023_CMD(0x86);//
+LCD_NV3023_Parameter(0x04);
+LCD_NV3023_CMD(0x87);
+LCD_NV3023_Parameter(0x16);
+LCD_NV3023_CMD(0x88);//VCOM
+LCD_NV3023_Parameter(0x0A);
+LCD_NV3023_CMD(0x89);//VCOML
+LCD_NV3023_Parameter(0x27);//2F
+LCD_NV3023_CMD(0x93); //60:1line 63:frame
+LCD_NV3023_Parameter(0x63);
+LCD_NV3023_CMD(0x96);
+LCD_NV3023_Parameter(0x81);//01
+LCD_NV3023_CMD(0xC3);
+LCD_NV3023_Parameter(0x10);
+LCD_NV3023_CMD(0xE6);
+LCD_NV3023_Parameter(0x00);
+LCD_NV3023_CMD(0x99);
+LCD_NV3023_Parameter(0x01);
+////////////////////////gamma_set////////vrp+ v- vrn//////////////////////////////
+LCD_NV3023_CMD(0x70);LCD_NV3023_Parameter(0x09);//VRP 31 1
+LCD_NV3023_CMD(0x71);LCD_NV3023_Parameter(0x1D);//VRP 30 3
+LCD_NV3023_CMD(0x72);LCD_NV3023_Parameter(0x14);//VRP 29 7
+LCD_NV3023_CMD(0x73);LCD_NV3023_Parameter(0x0a);//VRP 28 9
+LCD_NV3023_CMD(0x74);LCD_NV3023_Parameter(0x11);//VRP 25 11
+LCD_NV3023_CMD(0x75);LCD_NV3023_Parameter(0x16);//VRP 23 13
+LCD_NV3023_CMD(0x76);LCD_NV3023_Parameter(0x38);//VRP 21 5
+LCD_NV3023_CMD(0x77);LCD_NV3023_Parameter(0x0B);//VRP 17 15
+LCD_NV3023_CMD(0x78);LCD_NV3023_Parameter(0x08);//VRP 14 16
+LCD_NV3023_CMD(0x79);LCD_NV3023_Parameter(0x3E);//VRP 10 6
+LCD_NV3023_CMD(0x7a);LCD_NV3023_Parameter(0x07);//VRP 8 14
+LCD_NV3023_CMD(0x7b);LCD_NV3023_Parameter(0x0D);//VRP 6 12
+LCD_NV3023_CMD(0x7c);LCD_NV3023_Parameter(0x16);//VRP 3 10
+LCD_NV3023_CMD(0x7d);LCD_NV3023_Parameter(0x0F);//VRP 2 8
+LCD_NV3023_CMD(0x7e);LCD_NV3023_Parameter(0x14);//VRP 1 4
+LCD_NV3023_CMD(0x7f);LCD_NV3023_Parameter(0x05);//VRP 0 2
+LCD_NV3023_CMD(0xa0);LCD_NV3023_Parameter(0x04);//VRN 31 1
+LCD_NV3023_CMD(0xa1);LCD_NV3023_Parameter(0x28);//VRN 30 3
+LCD_NV3023_CMD(0xa2);LCD_NV3023_Parameter(0x0c);//VRN 29 7
+LCD_NV3023_CMD(0xa3);LCD_NV3023_Parameter(0x11);//VRN 28 9
+LCD_NV3023_CMD(0xa4);LCD_NV3023_Parameter(0x0b);//VRN 25 11
+LCD_NV3023_CMD(0xa5);LCD_NV3023_Parameter(0x23);//VRN 23 13
+LCD_NV3023_CMD(0xa6);LCD_NV3023_Parameter(0x45);//VRN 21 5
+LCD_NV3023_CMD(0xa7);LCD_NV3023_Parameter(0x07);//VRN 17 15
+LCD_NV3023_CMD(0xa8);LCD_NV3023_Parameter(0x0a);//VRN 14 16
+LCD_NV3023_CMD(0xa9);LCD_NV3023_Parameter(0x3b);//VRN 10 6
+LCD_NV3023_CMD(0xaa);LCD_NV3023_Parameter(0x0d);//VRN 8 14
+LCD_NV3023_CMD(0xab);LCD_NV3023_Parameter(0x18);//VRN 6 12
+LCD_NV3023_CMD(0xac);LCD_NV3023_Parameter(0x14);//VRN 3 10
+LCD_NV3023_CMD(0xad);LCD_NV3023_Parameter(0x0F);//VRN 2 8
+LCD_NV3023_CMD(0xae);LCD_NV3023_Parameter(0x19);//VRN 1 4
+LCD_NV3023_CMD(0xaf);LCD_NV3023_Parameter(0x08);//VRN 0 2
+//////////////////////////////////////////////////////////////////
+LCD_NV3023_CMD(0xff);
+LCD_NV3023_Parameter(0x00);
+LCD_NV3023_CMD(0x11);
+Delay_ms(120);
+LCD_NV3023_CMD(0x36);
+LCD_NV3023_Parameter(0x88);
+LCD_NV3023_CMD(0x29);
+Delay_ms(10);
+}

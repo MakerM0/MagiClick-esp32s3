@@ -64,25 +64,22 @@ CircuitPython is used by default. You can also use MicroPython, Arduino.
 
 # Hardware 
 
+### v2.3
+
+![20240819_164759](https://github.com/user-attachments/assets/72df055e-1152-4552-a693-6c6f89c9b059)
+
+
+
 ### Difference between v2.0 and v2.3
 
 |                                          |                             v2.0                             |                             v2.3                             |
 | ---------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | Display Driver                           |                            GC9107                            |                            NV3023                            |
-|                                          | ![GC9107](https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df) | ![NV3023](https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3) |
+|                                          | <img src="https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df" alt="GC9107" height=150 /> | <img src="https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3" alt="NV3023" height=150 /> |
 | Battery(with a protection circuit board) |                            801230                            |                       602025 or 802025                       |
-|                                          | ![18](https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280) |                                                              |
-| Keyboard switch                          | ![16-09-2024 13 45 53](https://github.com/user-attachments/assets/591edf82-1dd9-41aa-b90f-4f15ff3cf00b) | ![16-09-2024 13 45 38](https://github.com/user-attachments/assets/6c8d2646-7472-4314-a1af-7253ca38c896) |
+|                                          | <img src="https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280" alt="18" height=150 /> |                                                              |
+| Keyboard switch                          | <img src="https://github.com/user-attachments/assets/591edf82-1dd9-41aa-b90f-4f15ff3cf00b" alt="16-09-2024 13 45 53" height=150/> | <img src="https://github.com/user-attachments/assets/6c8d2646-7472-4314-a1af-7253ca38c896" alt="16-09-2024 13 45 38" height=150 /> |
 |                                          |                                                              |                                                              |
-
-
-
-### v2.3
-![20240819_164759](https://github.com/user-attachments/assets/72df055e-1152-4552-a693-6c6f89c9b059)
-
-
-
-
 
 
 
@@ -100,11 +97,32 @@ When you update the circuitpython firmware of the 2.0 hardware to version 9.x, t
 
 For version 2.3, please click  [here](https://github.com/MakerM0/MagiClick-S3-Single).
 
+### Guide
+
+1. Use the Flash Download Tool to burn the Combined .bin in the Firmware folder to the board
+2. After rebooting, Then copy the **.uf2** file to a USB stick
+3. After rebooting, copy the contents of the softerware folder to the displayed USB stick
+
+ [help](documents/如何下载固件.pdf) 
+
+
+##### Settings.toml 
+
+modify your wifi information, know the weather key (need to go to the official website to apply) and city
+
+The main button is used to access the function options
+
+The side button or flip button can exit the current function and return to the home page
+
+##### How to add new features
+
+Add the .py file to the app folder
+
 
 
 # Mechanical
 
-#### STL
+#### 3D Printings
 
 [The latest files for PCB  version 2.0](https://makerworld.com/zh/models/404976#profileId-306794)
 
@@ -114,32 +132,7 @@ For version 2.3, please click  [here](https://github.com/MakerM0/MagiClick-S3-Si
 
 [PACKAGING BOX](https://makeronline.com/en/model/product%20packaging%20box/48433.html)
 
-
-
-# Guide
-
-1. Use the Flash Download Tool to burn the Combined .bin in the Firmware folder to the board
-2. After rebooting, Then copy the **.uf2** file to a USB stick
-3. After rebooting, copy the contents of the softerware folder to the displayed USB stick
-
- [help](documents/如何下载固件.pdf) 
-
-
-#### Settings.toml 
-
-modify your wifi information, know the weather key (need to go to the official website to apply) and city
-
-The main button is used to access the function options
-
-The side button or flip button can exit the current function and return to the home page
-
-
-
-
-
-## How to add new features
-
-Add the .py file to the app folder
+<img src="documents/images/172822164043371300-670291c869e3_thumbnail.jpg" alt="172822164043371300-670291c869e3_thumbnail"   width = 600/>
 
 
 
