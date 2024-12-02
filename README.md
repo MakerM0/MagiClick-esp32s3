@@ -124,13 +124,18 @@ Add the .py file to the app folder
 
 #### 3D Printings
 
-[The latest files for PCB  version 2.0](https://makerworld.com/zh/models/404976#profileId-306794)
+Makeronline
 
-[The latest files for PCB  version 2.3](https://makerworld.com/zh/models/440612#profileId-346290)
+- [2.3](https://www.makeronline.com/en/model/magiclick%20macropad%20keyboard%20%E7%A5%9E%E5%A5%87%E6%8C%89%E9%92%AE/113241.html)
+- [PACKAGING BOX](https://makeronline.com/en/model/product%20packaging%20box/48433.html)
 
-[The latest files for PCB  version 2.3](https://makerworld.com/zh/models/584488#profileId-505582)
+Makerworld
 
-[PACKAGING BOX](https://makeronline.com/en/model/product%20packaging%20box/48433.html)
+- [2.0](https://makerworld.com/zh/models/404976#profileId-306794)
+- [2.3](https://makerworld.com/zh/models/440612#profileId-346290)
+- [2.3](https://makerworld.com/zh/models/584488#profileId-505582)
+
+
 
 <img src="documents/images/172822164043371300-670291c869e3_thumbnail.jpg" alt="172822164043371300-670291c869e3_thumbnail"   width = 600/>
 
@@ -152,8 +157,10 @@ Please add a summary of the contributions in the file **contributer.md**, Add it
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![9](documents/images/16.jpg)                                | <img src="extention/MLX90640/images/5.jpg" alt="5" style="zoom:80%;" /> | ![20240929_153110_mini](documents/images/20240929_153110_mini.jpg) |
 | ![7](documents/images/13.jpg)                                | ![8](documents/images/14.jpg)                                | <img src="extention/MLX90640/images/6.jpg" alt="6" style="zoom: 80%;" /> |
-| ![172822164043371300-670291c869e3_thumbnail](documents/images/172822164043371300-670291c869e3_thumbnail.jpg) |                                                              |                                                              |
-|                                                              |                                                              |                                                              |
+| ![172822164043371300-670291c869e3_thumbnail](documents/images/172822164043371300-670291c869e3_thumbnail.jpg) | ![resin](documents\images\resin.jpg)                         | ![20241128_151456](documents\images\20241128_151456.jpg)     |
+| ![20241128_151031](documents\images\20241128_151031.jpg)     | ![20241128_151131](documents\images\20241128_151131.jpg)     |                                                              |
+
+
 
 
 
