@@ -8,6 +8,14 @@
 
 ![4](images/4.png)
 
+
+
+## SUPPORT
+
+- MagiClick 2.0 PCB
+
+
+
 ## BOM
 
 | No.  | Quantity | Designator | Footprint                | Manufacturer Part          | Manufacturer          | Supplier | Supplier Part | Value | Comment                | JLCPCB Part Class |
