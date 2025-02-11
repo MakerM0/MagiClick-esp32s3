@@ -14,72 +14,67 @@ https://github.com/user-attachments/assets/02206fc1-4ecb-459a-b24e-a9fd3fc22468
 
 # MagiClick S3
 
-<a href="https://www.pcbway.com/project/shareproject/MagiClick_S3_Single_506b8396.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
+This is a versatile, single-button keyboard based on the ESP32-S3 microcontroller, featuring a 0.85-inch color display and customizable functionality, perfect for educational purposes, macro keyboard creation, and desktop decoration.It supports multiple programming languages.
 
 
 
-## Supported modules & chips
+# Specifications
 
-- ESP32-S3-MINI-1-N4R2  (for  Hardware v2.0)
-- ESP32-S3-MINI-1-N8 (for  Hardware v2.0)
-- ESP32-S3FN8  (for  Hardware v2.3)
-
-
+- **Dispaly**: 0.85-inch RGB, 128x128 resolution
+- **MCU**: ESP32-S3 , Wi-Fi & BLE
+- Main operation via central mechanical buttons, with auxiliary buttons on the sides
+- Pluggable mechanical switch design, choice of silent or other types
+- speaker
+- motion sensor
+- Expansion port 
+- USB Type-C interface
+- Reset button at the bottom
+-  RGB LEDs
+- more
 
 
 
 
 # Purchase
 
-[you can conveniently purchase it from here](https://www.elecrow.com/magiclick-open-source-multifunctional-programmable-mechanical.html).
+[Here](https://www.elecrow.com/magiclick-open-source-multifunctional-programmable-mechanical.html)
 
-
-
-| HW 2.0                       | [HW 2.3b ](hardware)             | [HW 2.3c](hardware)          |
-| ---------------------------- | -------------------------------- | ---------------------------- |
-| ![1](documents/images/1.jpg) | ![19](documents/images/19_1.png) | ![7](documents/images/7.png) |
-
-
-
-
-
-# Specifications
-
-A single-button keyboard, based on ESP32-S3, with a color screen.
-
-CircuitPython is used by default. You can also use MicroPython, Arduino.
-
-- 0.85-inch color screen, 128x128 resolution
-- esp32-s3, which supports WiFi, flash and RAM large enough to help add more functional scripts
-- The overall operation is mainly based on the mechanical axis buttons in the middle, and the left and right sides of the fuselage are generally used as auxiliaries
-- The keyboard axis uses a pluggable design, and you can freely choose the silent axis or others
-- Built-in a small speaker, listening to a sound is so easy
-- An on-board 6-axis motion sensor
-- There is an expansion port on the rear side of the fuselage
-- USB Type-C interface
-- One reset button at the bottom
-- On-board colorful LEDs
+<a href="https://www.pcbway.com/project/shareproject/MagiClick_S3_Single_506b8396.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
 
 
 # Hardware 
 
-### v2.3
+### v2.3 & v2.4
 
 ![20240819_164759](https://github.com/user-attachments/assets/72df055e-1152-4552-a693-6c6f89c9b059)
 
+| Version |                                                   |
+| :------------------: | :-----------------------------------------------: |
+| [2.4](hardware)  | <img src="documents/images/2.4@1x.png" width=800> |
+| [2.3c](hardware)  | <img src="documents/images/7.png" width=800>      |
+| [2.3b ](hardware) | <img src="documents/images/19_1.png" width=800>   |
+| [2.0](hardware)   | <img src="documents/images/1.jpg" width=400>     |
+|                      |                                                   |
 
 
-### Difference between v2.0 and v2.3
 
-|                                          |                             v2.0                             |                             v2.3                             |
-| ---------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| Display Driver                           |                            GC9107                            |                            NV3023                            |
-|                                          | <img src="https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df" alt="GC9107" height=150 /> | <img src="https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3" alt="NV3023" height=150 /> |
-| Battery(with a protection circuit board) |                            801230                            |                       602025 or 802025                       |
-|                                          | <img src="https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280" alt="18" height=150 /> |                                                              |
-| Keyboard switch                          | <img src="https://github.com/user-attachments/assets/591edf82-1dd9-41aa-b90f-4f15ff3cf00b" alt="16-09-2024 13 45 53" height=150/> | <img src="https://github.com/user-attachments/assets/6c8d2646-7472-4314-a1af-7253ca38c896" alt="16-09-2024 13 45 38" height=150 /> |
-|                                          |                                                              |                                                              |
+
+### Difference 
+
+|                                          |                             v2.0                             |                             v2.3                             |                             v2.4                             |
+| ---------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Supported MCU or Module                  |          ESP32-S3-MINI-1-N4R2 or ESP32-S3-MINI-1-N8          |                         ESP32-S3FN8                          |                          ESP32-S3R8                          |
+| FLASH                                    |                          4MB or 8MB                          |                             8MB                              |                             16MB                             |
+| PSRAM                                    |                           2MB or ❌                           |                              ❌                               |                             8MB                              |
+| Display Driver                           |                            GC9107                            |                            NV3023                            |                            NV3023                            |
+|                                          | <img src="https://github.com/user-attachments/assets/523d0a3c-ad5c-45c5-bae5-af37dbe8f4df" alt="GC9107" height=150 /> | <img src="https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3" alt="NV3023" height=150 /> | <img src="https://github.com/user-attachments/assets/cd7b9db4-63ff-4de5-b79d-df9c267f4ca3" alt="NV3023" height=150 /> |
+| Battery(with a protection circuit board) |                            801230                            |                       602025 or 802025                       |                            602025                            |
+|                                          | <img src="https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280" alt="18" height=150 /> |                                                              |                                                              |
+| Keyboard switch                          | <img src="https://github.com/user-attachments/assets/591edf82-1dd9-41aa-b90f-4f15ff3cf00b" alt="16-09-2024 13 45 53" height=150/> | <img src="https://github.com/user-attachments/assets/6c8d2646-7472-4314-a1af-7253ca38c896" alt="16-09-2024 13 45 38" height=150 /> | <img src="https://github.com/user-attachments/assets/6c8d2646-7472-4314-a1af-7253ca38c896" alt="16-09-2024 13 45 38" height=150 /> |
+| Audio                                    |                           max98357                           |                            ns4168                            |                            es8311                            |
+| Microphone                               |                              ❌                               |                              ❌                               |                             1xd                              |
+| Motion Sensor                            |                         lsm6ds3tr-c                          |                         lsm6ds3tr-c                          |                           lis2dh12                           |
 
 
 
@@ -128,6 +123,9 @@ Makeronline
 
 - [2.3](https://www.makeronline.com/en/model/magiclick%20macropad%20keyboard%20%E7%A5%9E%E5%A5%87%E6%8C%89%E9%92%AE/113241.html)
 - [PACKAGING BOX](https://makeronline.com/en/model/product%20packaging%20box/48433.html)
+- [PACKAGING BOX_2](https://makeronline.com/en/model/product%20packaging%20box/48433.html)
+
+
 
 Makerworld
 
