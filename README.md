@@ -37,7 +37,7 @@ This is a versatile, single-button keyboard based on the ESP32-S3 microcontrolle
 
 # Purchase
 
-[Here](https://www.elecrow.com/magiclick-open-source-multifunctional-programmable-mechanical.html)
+[Browse products ](https://www.elecrow.com/store/MakerM0)
 
 <a href="https://www.pcbway.com/project/shareproject/MagiClick_S3_Single_506b8396.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 
@@ -45,12 +45,11 @@ This is a versatile, single-button keyboard based on the ESP32-S3 microcontrolle
 
 # Hardware 
 
-### v2.3 & v2.4
-
 ![20240819_164759](https://github.com/user-attachments/assets/72df055e-1152-4552-a693-6c6f89c9b059)
 
 | Version |                                                   |
 | :------------------: | :-----------------------------------------------: |
+|                   |                                                   |
 | [2.4](hardware)  | <img src="documents/images/2.4@1x.png" width=800> |
 | [2.3c](hardware)  | <img src="documents/images/7.png" width=800>      |
 | [2.3b ](hardware) | <img src="documents/images/19_1.png" width=800>   |
@@ -73,7 +72,7 @@ This is a versatile, single-button keyboard based on the ESP32-S3 microcontrolle
 |                                          | <img src="https://github.com/user-attachments/assets/7210dbef-53c5-4370-846a-e92d67251280" alt="18" height=150 /> |                                                              |                                                              |
 | Keyboard switch                          | <img src="https://github.com/user-attachments/assets/591edf82-1dd9-41aa-b90f-4f15ff3cf00b" alt="16-09-2024 13 45 53" height=150/> | <img src="https://github.com/user-attachments/assets/6c8d2646-7472-4314-a1af-7253ca38c896" alt="16-09-2024 13 45 38" height=150 /> | <img src="https://github.com/user-attachments/assets/6c8d2646-7472-4314-a1af-7253ca38c896" alt="16-09-2024 13 45 38" height=150 /> |
 | Audio                                    |                           max98357                           |                            ns4168                            |                            es8311                            |
-| Microphone                               |                              ❌                               |                              ❌                               |                             1xd                              |
+| Microphone                               |                              ❌                               |                              ❌                               |                              1x                              |
 | Motion Sensor                            |                         lsm6ds3tr-c                          |                         lsm6ds3tr-c                          |                           lis2dh12                           |
 
 
